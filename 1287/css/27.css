@@ -1,0 +1,284 @@
+.type-11 {
+  font-family: sans-serif;
+  border: none;
+  height: auto;
+}
+.type-11 a {
+  text-decoration: none;
+}
+.type-11 .type-1 {
+  background-image: url(../images/nen1.jpg);
+  background-size: cover;
+}
+.type-11 .type-1 img {
+  width: 80%;
+  height: 80%;
+  display: block;
+}
+.type-11 .type-1 .show-img {
+  padding: 0;
+}
+.type-11 .type-1 .show-img p {
+  padding-top: 5%;
+  color: #fff;
+  font: 100 14px/24px Raleway, sans-serif;
+}
+.type-11 .type-1 .btn {
+  border-color: #fff;
+  color: #fff;
+  width: 40%;
+  margin-top: 5%;
+  text-transform: uppercase;
+}
+.type-11 .type-1 .btn:hover {
+  background: #abf36c;
+}
+.type-11 .type-1 .btn1 {
+  background: #57bc54;
+  border-color: #57bc54;
+}
+.type-11 .top-menu {
+  padding-top: 20px !important;
+}
+.type-11 .top-menu .clear {
+  clear: both;
+}
+.type-11 .top-menu .navbar-collapse {
+  padding: 0;
+}
+.type-11 .top-menu a {
+  color: #000;
+}
+.type-11 .top-menu a:hover {
+  background: none !important;
+  color: #57bc54;
+}
+.type-11 .top-menu .btn-menu {
+  font-size: 25px;
+  padding: 3px 10px;
+  border: 1px solid #000;
+  margin: 10px 0;
+  border-radius: 4px;
+  float: right;
+}
+.type-11 .top-menu .btn-menu:hover {
+  background: #000;
+  color: #fff;
+}
+.type-11 .top-menu .menu {
+  font-style: normal;
+}
+.type-11 .type-2 {
+  text-align: center;
+}
+.type-11 .type-2 img {
+  width: 55%;
+}
+.type-11 .type-2 h2 {
+  padding-top: 7%;
+  color: #57bc54;
+  text-transform: uppercase;
+  border-bottom: 1px solid #cecece;
+}
+.type-11 .type-2 p.read {
+  padding-left: 20%;
+  font: normal 14px/20px Raleway, sans-serif;
+  padding-right: 20%;
+}
+.type-11 .type-2 i {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 50%;
+  background: #57bc54;
+  font-size: 50px;
+  line-height: 4;
+}
+.type-11 .type-2 h3 {
+  text-transform: uppercase;
+  font: 700 18px/20px Raleway, sans-serif;
+}
+.type-11 .type-2 .btn {
+  border: 1px solid #57bc54;
+  color: #57bc54;
+  margin-bottom: 10px;
+}
+.type-11 .type-2 .btn:hover {
+  border: 1px solid #57bc54;
+  color: #fff;
+  background: #57bc54;
+}
+.type-11 .type-3 {
+  background-image: url(../images/nendt.jpg);
+  background-size: cover;
+}
+.type-11 .type-3 .line {
+  height: 50px;
+  background: #57bc54;
+}
+.type-11 .type-3 img {
+  width: 50%;
+}
+.type-11 .type-3 h2 {
+  padding-top: 10%;
+}
+.type-11 .type-3 p {
+  font: 700 16px/22px Raleway, sans-serif;
+}
+.type-11 .type-3 .btn1 {
+  border: 1px solid #57bc54;
+  background: #57bc54;
+  color: #fff;
+  width: 25%;
+}
+.type-11 .type-3 .btn2 {
+  border: 1px solid #cecece;
+  background: #cecece;
+  color: #fff;
+}
+.type-11 .type-3 .btn:hover {
+  background: #abf36c;
+}
+.type-11 .type-4 img {
+  width: 100%;
+  height: 160px;
+}
+.type-11 .type-4 h2 {
+  color: #57bc54;
+  font: 700 24px/20px Raleway, sans-serif;
+  text-transform: uppercase;
+  border-bottom: 2px solid #cecece;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.type-11 .type-4 .line {
+  border: 2px solid #cecece;
+  width: 20%;
+  margin-left: 40%;
+  margin-bottom: 20px;
+}
+.type-11 .type-4 p.dep {
+  font: normal 14px/20px Raleway, sans-serif;
+  text-align: center;
+}
+.type-11 .type-4 h3 {
+  color: #000;
+  font: 700 20px/20px Raleway, sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  text-align: center;
+}
+.type-11 .type-4 .nv1 {
+  height: 170px;
+}
+.type-11 .type-4 .nvb {
+  border-left: 1px solid #cecece;
+}
+.type-11 .type-4 .seo,
+.type-11 .type-4 .desion {
+  text-align: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #cecece;
+  color: #000;
+  line-height: 6;
+  position: absolute;
+  right: -7%;
+  font-weight: 700;
+  background: #fff;
+  z-index: 999;
+}
+@media (min-width: 768px) {
+  .type-11 .logo {
+    width: auto;
+    position: absolute;
+    float: left;
+  }
+  .type-11 .top-menu {
+    padding: 0;
+  }
+  .type-11 .active>a {
+    color: #57bc54;
+  }
+  .type-11 li>a {
+    padding: 10px 20px;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .type-11 li.active>a {
+    border-bottom: 2px solid #57bc54;
+  }
+  .type-11 .btn-menu {
+    display: none;
+  }
+  .type-11 .navbar-nav {
+    display: block;
+  }
+  .type-11 .type-1 .show-img h2 {
+    color: #fff;
+    font: 500 54px/40px Raleway, sans-serif;
+    padding-top: 6%;
+  }
+  .type-11 .type-3 h2 {
+    font: 700 44px/24px Raleway, sans-serif;
+  }
+  .type-11 .type-3 .btn2 {
+    width: 25%;
+  }
+  .type-11 .type-4 p {
+    padding-top: 5px;
+  }
+  .type-11 .type-4 .kcl {
+    margin-right: 40px;
+  }
+  .type-11 .type-4 .kcr {
+    margin-left: 40px;
+  }
+  .type-11 .type-4 .kcr .row {
+    padding: 5px;
+  }
+}
+@media (max-width: 767px) {
+  .type-11 .logo {
+    width: auto;
+    position: absolute;
+    float: left;
+  }
+  .type-11 .left-bg {
+    display: none;
+  }
+  .type-11 li>a {
+    padding: 10px 30px;
+    color: #000;
+  }
+  .type-11 .type-1 .show-img h2 {
+    color: #fff;
+    font: 500 34px/22px Raleway, sans-serif;
+    padding-top: 6%;
+  }
+  .type-11 .type-3 h2 {
+    font: 700 34px/24px Raleway, sans-serif;
+  }
+}
+@media (max-width: 480px) {
+  .type-11 .type-1 .show-img h2 {
+    color: #fff;
+    font: 500 24px/17px Raleway, sans-serif;
+    padding-top: 6%;
+  }
+  .type-11 .type-1 .show-img .btn {
+    font-size: 10px;
+  }
+  .type-11 .type-3 h2 {
+    font: 700 24px/24px Raleway, sans-serif;
+  }
+  .type-11 .type-3 .btn2 {
+    width: 35%;
+  }
+  .type-11 .type-4 .seo,
+  .type-11 .type-4 .desion {
+    display: none;
+  }
+}

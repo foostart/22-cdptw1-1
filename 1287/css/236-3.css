@@ -1,0 +1,61 @@
+.type-1287 {
+  font-family: sans-serif;
+  border: none;
+  height: auto;
+}
+.type-1287 a {
+  text-decoration: none;
+}
+.type-1287 .type-3 {
+  background-image: url(../images/nendt.jpg);
+  background-size: cover;
+}
+.type-1287 .type-3 .line {
+  height: 50px;
+  background: #57bc54;
+}
+.type-1287 .type-3 img {
+  width: 50%;
+}
+.type-1287 .type-3 h2 {
+  padding-top: 10%;
+}
+.type-1287 .type-3 p {
+  font: 700 16px/22px Raleway, sans-serif;
+}
+.type-1287 .type-3 .btn1 {
+  border: 1px solid #57bc54;
+  background: #57bc54;
+  color: #fff;
+  width: 25;
+  margin-left: 15px;
+}
+.type-1287 .type-3 .btn2 {
+  border: 1px solid #cecece;
+  background: #cecece;
+  color: #fff;
+}
+.type-1287 .type-3 .btn:hover {
+  background: #abf36c;
+}
+@media (min-width: 768px) {
+  .type-1287 .type-3 h2 {
+    font: 700 44px/24px Raleway, sans-serif;
+  }
+  .type-1287 .type-3 .btn2 {
+    width: 25%;
+  }
+}
+@media (max-width: 767px) {
+  .type-1287 .type-3 h2 {
+    font: 700 34px/24px Raleway, sans-serif;
+  }
+}
+@media (max-width: 480px) {
+  .type-1287 .type-3 h2 {
+    font: 700 24px/24px Raleway, sans-serif;
+  }
+  .type-1287 .type-3 .btn2 {
+    width: 35%;
+  }
+}

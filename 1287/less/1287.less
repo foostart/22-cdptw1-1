@@ -1,0 +1,79 @@
+.type-1287 {
+    font-family: sans-serif;
+    border: none;
+    height: auto;
+    @color_icon: #cecece;
+    @color_bg: #000;   
+    @color_write: #fff;  
+    @color_green:#57bc54;
+    a{
+        text-decoration: none;
+    }
+    
+    .type-3{
+        background-image: url(../images/nendt.jpg);
+        background-size: cover;
+        .line{
+            height:50px;
+            background: @color_green;
+        }
+        img{
+            width:50%;
+        }
+        h2{
+            padding-top:10%;            
+        }
+        p{
+            font: 700 16px/22px Raleway, sans-serif;
+        }
+        .btn1{
+            border: 1px solid @color_green;
+            background: @color_green;
+            color:@color_write;
+            width:25;
+            margin-left: 15px;
+        }
+        .btn2{
+            border: 1px solid #cecece;
+            background: #cecece;
+            color:@color_write;            
+        }
+        .btn:hover{
+            background: #abf36c;
+        }
+    }
+
+
+    /*-------REPONSIVE----------*/
+    @media (min-width: 768px){
+
+        .type-3{
+            h2{
+                font: 700 44px/24px Raleway, sans-serif;
+            }
+            .btn2{
+                width:25%
+            }
+        }
+
+    }
+    @media (max-width: 767px){
+
+        .type-3{
+            h2{
+                font: 700 34px/24px Raleway, sans-serif;
+            }
+        }
+    }
+    @media (max-width: 480px){
+
+        .type-3{
+            h2{
+                font: 700 24px/24px Raleway, sans-serif;
+            }
+            .btn2{
+                width:35%
+            }
+        }
+    }
+}

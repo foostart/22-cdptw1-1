@@ -1,0 +1,45 @@
+.type-1276 .partner {
+  float: left;
+  margin-top: 30px;
+  overflow: hidden;
+}
+.type-1276 .partner ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.type-1276 .partner li {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.type-1276 .partner li img {
+  width: 100%;
+  padding: 0 40px;
+  margin-right: 0 60px;
+}
+.type-1276 .info-man {
+  margin-top: 50px;
+  background: #000;
+}
+.type-1276 .info-man .img-man {
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+.type-1276 .info-man img {
+  border-radius: 50%;
+}
+.type-1276 .text-man {
+  color: #fff;
+  padding-top: 50px;
+}
+.type-1276 .name {
+  color: orange;
+  font-size: 14px;
+}
+@media (max-width: 1030px) {
+  .type-1276 .owl-nav {
+    display: none;
+  }
+}
