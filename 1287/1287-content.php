@@ -19,7 +19,7 @@ $url_path = str_replace('\\', '/', $url_path);
                     <p>Synonyms for thematic at Thesaurus.com with 
                         free online thesaurus, antonyms, and definitions.
                         Dictionary and Word of the Day. ... Thematic elaboration is only</p>
-                        <div class="row">
+                        <div class="nut">
                             <div class="btn btn1">
                                 BUY IT
                             </div>
