@@ -24,6 +24,7 @@
   margin-top: auto;
 }
 .type-1289 .text-l {
+  word-break: break-all;
   float: left;
   padding-right: 10px;
 }
