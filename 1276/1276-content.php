@@ -12,11 +12,11 @@ $url_path = str_replace('\\', '/', $url_path);
     <div class="container">
         <div class="partner">
             <ul>
-                <li><img src="<?php echo $url_path ?>/images/partner-1.jpg" alt=""/></li>
-                <li><img src="<?php echo $url_path ?>/images/partner-2.jpg" alt=""/></li>
-                <li><img src="<?php echo $url_path ?>/images/partner-3.jpg" alt=""/></li>
-                <li><img src="<?php echo $url_path ?>/images/partner-4.jpg" alt=""/></li>
-                <li><img src="<?php echo $url_path ?>/images/partner-5.jpg" alt=""/></li>
+                <li class="boxly"><div class="boxim"><img src="<?php echo $url_path ?>/images/partner-1.jpg" alt=""/></div></li>
+                <li class="boxly"><div class="boxim"><img src="<?php echo $url_path ?>/images/partner-2.jpg" alt=""/></div></li>
+                <li class="boxly"><div class="boxim"><img src="<?php echo $url_path ?>/images/partner-3.jpg" alt=""/></div></li>
+                <li class="boxly"><div class="boxim"><img src="<?php echo $url_path ?>/images/partner-4.jpg" alt=""/></div></li>
+                <li class="boxly"><div class="boxim"><img src="<?php echo $url_path ?>/images/partner-5.jpg" alt=""/></div></li>
             </ul>
         </div>
     </div>

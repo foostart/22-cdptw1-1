@@ -7,11 +7,11 @@
   list-style: outside none none;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 .type-1276 .partner li {
   display: inline;
   float: left;
-  margin-right: 10px;
   margin-bottom: 10px;
 }
 .type-1276 .partner li img {
@@ -26,6 +26,7 @@
 .type-1276 .info-man .img-man {
   padding-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 .type-1276 .info-man img {
   border-radius: 50%;
@@ -37,6 +38,43 @@
 .type-1276 .name {
   color: orange;
   font-size: 14px;
+}
+@media (min-width: 992px) {
+  .type-1276 .container {
+    width: 1140px;
+  }
+}
+@media (max-width: 830px) {
+  .type-1276 .partner {
+    float: none;
+    margin-top: 30px;
+    overflow: hidden;
+  }
+  .type-1276 .partner ul {
+    list-style: outside none none;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .type-1276 .partner ul .boxly {
+    margin-bottom: 50px;
+  }
+  .type-1276 .partner ul li {
+    display: inline;
+    float: none;
+    width: 60%;
+    background: red;
+    margin: 0 auto;
+  }
+  .type-1276 .partner ul li .boxim {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .type-1276 .partner ul li .boxim img {
+    width: 100%;
+    padding: 0px;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 1030px) {
   .type-1276 .owl-nav {

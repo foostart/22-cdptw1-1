@@ -7,11 +7,11 @@
             list-style: outside none none;
             margin: 0;
             padding: 0;
+            position: relative;
         }
         li{
             display: inline;
             float: left;
-            margin-right: 10px;
             margin-bottom: 10px;
             img{
                 width: 100%;
@@ -27,6 +27,7 @@
         .img-man{
             padding-top: 50px;
             margin-bottom: 50px;    
+            text-align: center;
         }
         img{
             border-radius: 50%;
@@ -40,8 +41,56 @@
         color: orange;
         font-size: 14px;
     }
+    @media (min-width: 992px){
+        .container {
+        width: 1140px;
+    }
+        
+    }
+    @media (max-width:830px){
+        .partner{
+            float: none;
+            margin-top: 30px;
+            overflow: hidden;
+            ul{
+                list-style: outside none none;
+               
+                position: relative;
+                display: flex;
+                flex-direction: column;
 
+                .boxly
+                {
+                    margin-bottom: 50px;
+                }
+            li{
+                display: inline;
+                float: none;
+                width: 60%;
+                background: red;
+                margin: 0 auto;
+                .boxim{
+                    width: 100%;
+                margin: 0 auto;
+                    img{
+                        
+                        width: 100%;
+                        padding: 0px;
+                        margin: 0 auto;
+                    }
+                  
+                  
+                }
+                
+            }
 
+            }
+         
+
+    
+        }
+
+    }
     
     @media (max-width:1030px){
         .owl-nav{
