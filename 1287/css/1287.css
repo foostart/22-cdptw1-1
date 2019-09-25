@@ -44,6 +44,9 @@
   }
 }
 @media (max-width: 767px) {
+  .type-1287 .abc {
+    text-align: center;
+  }
   .type-1287 .type-3 h2 {
     font: 700 34px/24px Raleway, sans-serif;
   }

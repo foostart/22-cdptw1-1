@@ -14,7 +14,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="line"></div>
         <div class="container">
             <div class="row">                        
-                <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="col-md-6 col-sm-6 col-xs-12 abc">
                     <h2>Mobile Ready</h2>
                     <p>Synonyms for thematic at Thesaurus.com with 
                         free online thesaurus, antonyms, and definitions.
@@ -28,7 +28,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-12">
+                    <div class="col-md-6 col-sm-6 col-xs-12 abc">
                         <img src="<?php echo $url_path ?>/images/dienthoai.png" alt=""/>
                     </div>
                 </div>
