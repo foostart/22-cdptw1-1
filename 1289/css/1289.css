@@ -125,3 +125,30 @@
 .type-1289 :-moz-placeholder {
   color: #d4d4d4;
 }
+@media (max-width: 1210px) {
+  .type-1289 .frame {
+    width: 300px;
+  }
+}
+@media (max-width: 774px) {
+  .type-1289 .frame {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 460px) {
+  .type-1289 .frame {
+    width: 100%;
+  }
+  .type-1289 li {
+    width: 70% !important;
+  }
+  .type-1289 li .msj-rta {
+    margin: 0 -120px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .type-1289 .type-1289 .text-r {
+    width: 100%;
+  }
+}

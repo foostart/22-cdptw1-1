@@ -38,6 +38,15 @@
 .type-1290 div.user-menu-container .btn {
   transition: 1s ease;
 }
+@media (min-width: 1200px) {
+  .type-1290 div.user-menu-container .user-pad .btn {
+    word-break: break-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 293px;
+  }
+}
 .type-1290 div.user-menu-container .thumbnail {
   width: 100%;
   min-height: 200px;
@@ -49,7 +58,7 @@
   display: block;
 }
 .type-1290 div.user-menu-container .btn-group-vertical>a {
-  padding: 20px 25px;
+  padding: 20px 0px;
   background-color: #46D8D2;
   color: white;
   border-color: #fff;
@@ -125,7 +134,9 @@
   overflow: hidden;
 }
 .type-1290 .overview h3 {
-  font-weight: 300;
+  word-break: break-all;
+  font-weight: bold;
+  font-size: 17px;
   margin-top: 15px;
   margin: 10px 0 0 0;
 }
@@ -185,6 +196,20 @@
 .type-1290 .square,
 .type-1290 .btn {
   border-radius: 0px !important;
+}
+@media (max-width: 1199px) {
+  .type-1290 div.user-menu-container .user-pad .btn {
+    word-break: break-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 235px !important;
+  }
+}
+@media (max-width: 991px) {
+  .type-1290 .user-pad {
+    text-align: center;
+  }
 }
 @media (max-width: 767px) {
   .type-1290 .user-image {
