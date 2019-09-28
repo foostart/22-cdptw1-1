@@ -91,7 +91,6 @@
 }
 .type-750 .reponsive-menu .item-menu {
   display: inline-block;
-  float: left;
   font-size: 24px;
   margin-top: 40px;
 }
@@ -266,10 +265,10 @@
 }
 @media (max-width: 479px) {
   .type-750 .reponsive-menu {
-    float: right;
+    float: left;
   }
   .type-750 .logo {
-    float: left;
+    float: center;
   }
 }
 .type-750 .main-menu-reponsive .menu-reponsive {

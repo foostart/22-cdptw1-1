@@ -1,11 +1,14 @@
+
 .type-750{  
     border: none;
     height: auto;
     @color_base: rgb(113,181,228);
     @color_icon: rgb(14,170,166); 
-	@color_title_base: rgb(97,97,97);
-
-    
+    @color_title_base: rgb(97,97,97);
+    @color_border_bottom: rgb(244,244,244);
+    @font_size: 57px;
+    @color: #fff;
+    @color_xam: #aeaead;
 	/***************************** Header-Area **********************************/
 	header {
 		height: 420px;
@@ -19,13 +22,13 @@
 		    top: 20%;
 		    right: 30%;
 		    text-align: right;
-		    color: #fff;
+		    color: @color;
 
 		    .sub-title {
 		    	font-size: 32px;
 		    }
 		    .title {
-		    	font-size: 57px;
+		    	font-size: @font_size;
 		    	margin-top: 10px;
     			text-align: left!important;
 		    }
@@ -44,11 +47,11 @@
 				height: 7px;
 			    width: 40px;
 			    background: transparent;
-			    border: 2px #fff solid;
+			    border: 2px @color solid;
 			    border-radius: 3px;
 			}
 			.swiper-pagination-bullet-active {
-				background: #fff!important;
+				background: @color!important;
 			}
 		}
 	}
@@ -66,7 +69,7 @@
 	}	
 	.top-menu {
 		border-top: 4px @color_base solid;
-		border-bottom: 2px rgb(244,244,244) solid;
+		border-bottom: 2px @color_border_bottom solid;
 
 		.pl-10 {
 			padding-left: 10px;
@@ -76,7 +79,7 @@
 	    .top_panel_middle {
 	        width: 100%;
 	        z-index: 999;
-	        background: #fff;
+	        background: @color;
 	        top: 0;
 	    }
 
@@ -112,10 +115,8 @@
     .reponsive-menu {
         .item-menu {
             display: inline-block;
-            float: left;
             font-size: 24px;
             margin-top: 40px;
-
         }
     }
     
@@ -162,7 +163,7 @@
     }
     
     .show-home1 {
-        background-color: #fff;
+        background-color: @color;
     }
     
     .main-menu ul li a{
@@ -183,14 +184,14 @@
         padding-top:20px;
         a {
             line-height: 35px;
-            color: #aeaead;
+            color: @color_xam;
             padding-left: 10px;
         }
         li {
             width: 170px;
         }
         li:hover {
-            background-color: #fff;
+            background-color: @color;
             a:hover {
                  color: @color_base;
             }
@@ -249,18 +250,18 @@
         font-size: 12px!important;
         padding-right: 35px!important;
         width: 130px!important;
-        color: #fff!important;
+        color: @color!important;
         background-color: @color_base!important;
     }
     
     .button-active {
-        color: #fff!important;
+        color: @color!important;
         background-color: @color_base!important;
         border-radius: 1.5em!important;
     }
     
     .button:hover {
-        color: #fff!important;
+        color: @color!important;
         background-color: @color_base!important;
         border-radius: 1.5em!important;
     }
@@ -269,7 +270,7 @@
         float: right;
         height: 34px;
         width: 34px;
-        background-color: #fff;
+        background-color: @color;
         position: relative;
         top: -30px;
         text-align: center;
@@ -320,11 +321,11 @@
     @media (max-width:479px)
     {
         .reponsive-menu {
-            float: right;
+            float: left;
         }
         
         .logo {
-            float: left;
+            float: center;
         }
     }
     .main-menu-reponsive{
@@ -381,7 +382,7 @@
         a{
             text-decoration:none;
             text-transform:uppercase;
-            color:#aeaead;
+            color:@color_xam;
             font-size:12px;
             padding-left: 35px;
             font-weight: 700;
@@ -478,14 +479,14 @@
     				padding: 15px 18px 15px 18px;
     				color: @color_base;
     				cursor: pointer;
-    				background-color: #fff;
+    				background-color: @color;
     				transition: all 0.5s ease-in-out;
 				    -webkit-transition: all 0.5s ease-in-out;
 				    -moz-transition: all 0.5s ease-in-out;
 				    -o-transition: all 0.5s ease-in-out;
 			    }
 			    i:hover, i:focus {
-			    	color: #fff;
+			    	color: @color;
 			    	border-color: @color_icon;
 			    	background-color: @color_base;
 			    	transition: all 0.5s ease-in-out;
@@ -526,7 +527,7 @@
 	    display: none;
 	    line-height: 38px;
 	    text-align: center;
-	    color: #fff;
+	    color: @color;
 	    cursor: pointer;
 	    border-radius: 2px;
 	    -webkit-transition: all 400ms linear 0ms;
