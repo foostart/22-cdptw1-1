@@ -33,12 +33,16 @@
                         <h4 class="sub-title">custom video backgrounds</h4>
                         <h3 class="title">perfected every pixel</h3>
                         <p class="content">All videos you see in th preview are available in the dowload file along with stock photo!</p>
-                    </div>    
+                    </div> 
                 </div>
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
         </div>
+        <div class="nut-slide">
+            <span id="btn-prev"><i class="fas fa-chevron-left"></i></span>
+            <span id="btn-next"><i class="fas fa-chevron-right"></i></span>
+	    </div>
     </header><!-- End Header --> 
 
     <!-- Top Menu -->
@@ -49,10 +53,10 @@
             </div>
             <div class="logo">
                 <a href="#">
-                    <!--<div class="left"><img class="img_logo" src="images/Logo.png" alt=""/></div>-->
-                    <div class="logo_content">
-                        <div class="logo_text">Dale</div>
-                    </div>
+                    <div class="left"><img class="img_logo" src="./images/logo.png" alt=""/></div>
+                        <!-- <div class="logo_content">
+                            <div class="logo_text">Dale</div>
+                        </div> -->
                 </a>
             </div><!--End-Logo-->
         </div>
@@ -60,10 +64,10 @@
             <div class="container content_wrap">
                 <div class="logo">
                     <a href="#">
-                       <!-- <div class="left"><img class="img_logo" src="images/Logo.png" alt=""/></div> -->
-                        <div class="logo_content">
-                            <div class="logo_text">Dale</div>
-                        </div>
+                        <div class="left"><img class="img_logo" src="images/Logo.png" alt=""/></div>
+                            <!-- <div class="logo_content">
+                                <div class="logo_text">Dale</div>
+                            </div> -->
                     </a>
                 </div><!--End-Logo-->
                 <div class="top_menu">

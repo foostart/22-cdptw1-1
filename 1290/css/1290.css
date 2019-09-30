@@ -8,12 +8,6 @@
 .type-1290 .coral {
   color: #FA396f;
 }
-.type-1290 .turqbg {
-  background-color: #46D8D2;
-}
-.type-1290 .turq {
-  color: #46D8D2;
-}
 .type-1290 .white {
   color: #fff !important;
 }
@@ -144,54 +138,6 @@
   font-weight: bold !important;
   font-size: 40px;
   margin-top: 0;
-}
-.type-1290 .view {
-  position: relative;
-  overflow: hidden;
-  margin-top: 10px;
-}
-.type-1290 .view p {
-  margin-top: 20px;
-  margin-bottom: 0;
-}
-.type-1290 .caption {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background: rgba(70,216,210,0.44);
-  width: 100%;
-  height: 100%;
-  padding: 2%;
-  display: none;
-  text-align: center;
-  color: #fff !important;
-  z-index: 2;
-}
-.type-1290 .caption a {
-  padding-right: 10px;
-  color: #fff;
-}
-.type-1290 .info {
-  display: block;
-  padding: 10px;
-  background: #eee;
-  text-transform: uppercase;
-  font-weight: 300;
-  text-align: right;
-}
-.type-1290 .info p,
-.type-1290 .stats p {
-  margin-bottom: 0;
-}
-.type-1290 .stats {
-  display: block;
-  padding: 10px;
-  color: white;
-}
-.type-1290 .share-links {
-  border: 1px solid #eee;
-  padding: 15px;
-  margin-top: 15px;
 }
 .type-1290 .square,
 .type-1290 .btn {
