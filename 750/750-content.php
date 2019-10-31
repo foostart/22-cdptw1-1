@@ -17,33 +17,32 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <a href="#">
-                        <img src="images/blue.jpg" alt=""/>
+                        <img src="images/blue.jpg" alt="" />
                     </a>
                     <div class="content-slide-show">
                         <h4 class="sub-title">custom video backgrounds</h4>
                         <h3 class="title">perfected every pixel</h3>
-                        <p class="content">All videos you see in th preview are available in the dowload file along with stock photo!</p>
+                        <p class="content">All videos you see in th preview are available in the dowload file along with
+                            stock photo!</p>
                     </div>
                 </div>
                 <div class="swiper-slide">
                     <a href="#">
-                        <img src="images/coffee.jpg" alt=""/>
+                        <img src="images/coffee.jpg" alt="" />
                     </a>
                     <div class="content-slide-show">
                         <h4 class="sub-title">custom video backgrounds</h4>
                         <h3 class="title">perfected every pixel</h3>
-                        <p class="content">All videos you see in th preview are available in the dowload file along with stock photo!</p>
-                    </div> 
+                        <p class="content">All videos you see in th preview are available in the dowload file along with
+                            stock photo!</p>
+                    </div>
                 </div>
+
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
         </div>
-        <div class="nut-slide">
-            <span id="btn-prev"><i class="fas fa-chevron-left"></i></span>
-            <span id="btn-next"><i class="fas fa-chevron-right"></i></span>
-	    </div>
-    </header><!-- End Header --> 
+    </header><!-- End Header -->
 
     <!-- Top Menu -->
     <div class="top-menu">
@@ -53,28 +52,30 @@
             </div>
             <div class="logo">
                 <a href="#">
-                    <div class="left"><img class="img_logo" src="./images/logo.png" alt=""/></div>
-                        <!-- <div class="logo_content">
+                    <div class="left"><img class="img_logo" src="./images/logo.png" alt="" /></div>
+                    <!-- <div class="logo_content">
                             <div class="logo_text">Dale</div>
                         </div> -->
                 </a>
-            </div><!--End-Logo-->
+            </div>
+            <!--End-Logo-->
         </div>
         <div class="top_panel_middle">
             <div class="container content_wrap">
                 <div class="logo">
                     <a href="#">
-                        <div class="left"><img class="img_logo" src="images/Logo.png" alt=""/></div>
-                            <!-- <div class="logo_content">
+                        <div class="left"><img class="img_logo" src="images/Logo.png" alt="" /></div>
+                        <!-- <div class="logo_content">
                                 <div class="logo_text">Dale</div>
                             </div> -->
                     </a>
-                </div><!--End-Logo-->
+                </div>
+                <!--End-Logo-->
                 <div class="top_menu">
                     <nav class="main-menu">
                         <ul class="menu">
                             <li class="current">
-                                <a  href="#">HOME<i class="pl-10 fa fa-angle-down"></i></a>
+                                <a href="#">HOME<i class="pl-10 fa fa-angle-down"></i></a>
                                 <ul class="sub-menu">
                                     <li><a href="#">Home(Slider1)</a></li>
                                     <li><a href="#">Home(Slider2)</a></li>
@@ -82,7 +83,7 @@
                                 </ul>
                             </li>
                             <li class="current">
-                                <a  href="#">PAGES<i class="pl-10 fa fa-angle-down"></i></a>
+                                <a href="#">PAGES<i class="pl-10 fa fa-angle-down"></i></a>
                                 <ul class="sub-menu">
                                     <li><a href="#">Page-1</a></li>
                                     <li><a href="#">Page-2</a></li>
@@ -90,7 +91,7 @@
                                 </ul>
                             </li>
                             <li class="current">
-                                <a  href="#">FEATURES<i class="pl-10 fa fa-angle-down"></i></a>
+                                <a href="#">FEATURES<i class="pl-10 fa fa-angle-down"></i></a>
                                 <ul class="sub-menu">
                                     <li><a href="#">Features-1</a></li>
                                     <li><a href="#">Features-2</a></li>
@@ -98,25 +99,28 @@
                                 </ul>
                             </li>
                             <li class="current">
-                                <a  href="#">PORTFOLIO</a>
+                                <a href="#">PORTFOLIO</a>
                             </li>
                             <li class="current">
-                                <a  href="#">BLOG</a>
+                                <a href="#">BLOG</a>
                             </li>
                         </ul>
                     </nav>
                     <div class="quick-access">
                         <form action="#" method="get">
                             <div class="form-search">
-                                <input id="search" type="text" placeholder="Search..." name="key" value="" class="input-text" maxlength="128" />
-                                 <div class="button"><i class="fa fa-search"></i></div>
+                                <input id="search" type="text" placeholder="Search..." name="key" value=""
+                                    class="input-text" maxlength="128" />
+                                <div class="button"><i class="fa fa-search"></i></div>
                             </div>
                         </form>
                     </div>
                     <div style="clear: both;"></div>
-                </div><!--End-Top-Menu-->
+                </div>
+                <!--End-Top-Menu-->
             </div>
-        </div><!--End-Top-Panel-Middle-->
+        </div>
+        <!--End-Top-Panel-Middle-->
         <div class="main-menu-reponsive">
             <div class="full-show" id="full-show"></div>
             <ul class="menu-reponsive" id="reponsive-menu">
@@ -173,7 +177,9 @@
     <div class="service">
         <div class="container">
             <h3 class="title"><i class="fa fa-gear"></i><span> OUR </span>SERVICES</h3>
-            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, dictum nisi non.Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, dictum nisi non, integer aliquam sed ante non volutpat</p>
+            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, dictum
+                nisi non.Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, dictum nisi
+                non, integer aliquam sed ante non volutpat</p>
         </div>
     </div>
     <!-- End Service -->
@@ -186,7 +192,8 @@
                         <span><i class="fa fa-expand"></i></span>
                         <div class="content">
                             <h4 class="title">DesignReponsive </h4>
-                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, dictum nisi non, integer aliquam sed ante non volutpat.</p>
+                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum
+                                nisi non, dictum nisi non, integer aliquam sed ante non volutpat.</p>
                         </div>
                     </div>
                 </div>
@@ -195,7 +202,8 @@
                         <span><i class="fa fa-expand"></i></span>
                         <div class="content">
                             <h4 class="title">DesignReponsive </h4>
-                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, dictum nisi non, integer aliquam sed ante non volutpat.</p>
+                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum
+                                nisi non, dictum nisi non, integer aliquam sed ante non volutpat.</p>
                         </div>
                     </div>
                 </div>
@@ -204,7 +212,8 @@
                         <span><i class="fa fa-expand"></i></span>
                         <div class="content">
                             <h4 class="title">DesignReponsive </h4>
-                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, dictum nisi non, integer aliquam sed ante non volutpat.</p>
+                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum
+                                nisi non, dictum nisi non, integer aliquam sed ante non volutpat.</p>
                         </div>
                     </div>
                 </div>
@@ -213,7 +222,8 @@
                         <span><i class="fa fa-expand"></i></span>
                         <div class="content">
                             <h4 class="title">DesignReponsive </h4>
-                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, dictum nisi non, integer aliquam sed ante non volutpat.</p>
+                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum
+                                nisi non, dictum nisi non, integer aliquam sed ante non volutpat.</p>
                         </div>
                     </div>
                 </div>
@@ -222,7 +232,8 @@
                         <span><i class="fa fa-expand"></i></span>
                         <div class="content">
                             <h4 class="title">DesignReponsive </h4>
-                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, dictum nisi non, integer aliquam sed ante non volutpat.</p>
+                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum
+                                nisi non, dictum nisi non, integer aliquam sed ante non volutpat.</p>
                         </div>
                     </div>
                 </div>
@@ -231,7 +242,8 @@
                         <span><i class="fa fa-expand"></i></span>
                         <div class="content">
                             <h4 class="title">DesignReponsive </h4>
-                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, dictum nisi non, integer aliquam sed ante non volutpat.</p>
+                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum
+                                nisi non, dictum nisi non, integer aliquam sed ante non volutpat.</p>
                         </div>
                     </div>
                 </div>

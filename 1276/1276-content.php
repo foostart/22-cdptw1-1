@@ -1,76 +1,123 @@
-<?php
-$url_host = 'http://'.$_SERVER['HTTP_HOST'];
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+<!DOCTYPE html>
 
-preg_match_all($pattern_uri, __DIR__, $matches);
-$url_path = $url_host . $matches[1][0];
-$url_path = str_replace('\\', '/', $url_path);
-?>
+<html lang="en">
 
-<div class="type-1276">
-    <div class="container">
-        <div class="partner">
-            <ul>
-                <li class="boxly">
-                    <div class="boxim"><img src="<?php echo $url_path ?>/images/partner-1.jpg" alt="#" /></div>
-                </li>
-                <li class="boxly">
-                    <div class="boxim"><img src="<?php echo $url_path ?>/images/partner-2.jpg" alt="#" /></div>
-                </li>
-                <li class="boxly">
-                    <div class="boxim"><img src="<?php echo $url_path ?>/images/partner-3.jpg" alt="#" /></div>
-                </li>
-                <li class="boxly">
-                    <div class="boxim"><img src="<?php echo $url_path ?>/images/partner-4.jpg" alt="#" /></div>
-                </li>
-                <li class="boxly">
-                    <div class="boxim"><img src="<?php echo $url_path ?>/images/partner-5.jpg" alt="#" /></div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="clearfix"></div>
+<body>
 
-    <div class="info-man">
-        <div class="container">
+  <div class="type-1276">
+    <div class="wrapper">
+
+
+      <div class="container">
+        <div id="brand_carouse" class="ptb_50 text-center">
+          <div class="type-01">
             <div class="row">
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="img-man">
-                                <img src="<?php echo $url_path ?>/images/man.jpg" alt="" />
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="text-man">
-                                <p>Lorem Ipsum has been the industry's standard dummy text
-                                    ever since the 1500s, when an unknown printer took a gallery</p>
-                                <span class="name">David willer</span> Graphic designer
-                            </div>
-                        </div>
-                    </div>
+              <div class="col-sm-12">
+                <div class="brand owl-carousel ptb_20">
+                  <div class="item text-center"> <a href="#"><img src="images/partner-1.jpg" alt="Disney" class="img-responsive" /></a> </div>
+                  <div class="item text-center"> <a href="#"><img src="images/partner-2.jpg" alt="Dell" class="img-responsive" /></a> </div>
+                  <div class="item text-center"> <a href="#"><img src="images/partner-3.jpg" alt="Harley" class="img-responsive" /></a> </div>
+                  <div class="item text-center"> <a href="#"><img src="images/partner-4.jpg" alt="Canon" class="img-responsive" /></a> </div>
+                  <div class="item text-center"> <a href="#"><img src="images/partner-5.jpg" alt="Canon" class="img-responsive" /></a> </div>
                 </div>
-
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="img-man">
-                                <img src="<?php echo $url_path ?>/images/woman.jpg" alt="" />
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-sm-6 col-xs-12">
-                            <div class="text-man">
-                                <p>Lorem Ipsum has been the industry's standard dummy text
-                                    ever since the 1500s, when an unknown printer took a gallery</p>
-                                <span class="name">David Miller</span> Graphic designer
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-    <div class="clearfix"></div>
 
-</div>
+      </div>
+      <div class="footer pt_60" style="background: #000;">
+
+        <div class="row">
+          <div class="footer-top pb_60 mb_30">
+            <!-- =====  testimonial  ===== -->
+            <div class="col-xs-6 ">
+              <div class="Testimonial">
+                <div class="client owl-carousel">
+                  <div class="item client-detail" style="
+                  text-align: center;
+              ">
+                    <div class="client-avatar"> <img alt="" src="images/team-10-70x70.jpg"> </div>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                      Ventage or dorent eu fugiat nulla pariatur . <br> Excepteur sint occaecat
+                      cupidatat non proident rum.</p>
+                    <div class="client-title"><strong>MICHAEL STROMBACH</strong></div>
+
+
+                  </div>
+                  <div class="item client-detail" style="
+                  text-align: center;  ">
+                    <div class="client-avatar"> <img alt="" src="images/team-9-70x70.jpg"> </div>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                      Ventage or dorent eu fugiat nulla pariatur . <br> Excepteur sint occaecat
+                      cupidatat non proident rum..</p>
+                    <div class="client-title"><strong>STROMBACH MICHAEL</strong></div>
+
+
+                  </div>
+                  <div class="item client-detail" style="
+                  text-align: center;
+              ">
+
+                    <div class="client-avatar"> <img alt="" src="images/team-10-70x70.jpg"> </div>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                      Ventage or dorent eu fugiat nulla pariatur . <br> Excepteur sint occaecat
+                      cupidatat non proident rum.</p>
+                    <div class="client-title"><strong>MICHAEL STROMBACH</strong></div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-6 ">
+              <div class="Testimonial">
+                <div class="client owl-carousel">
+                  <div class="item client-detail" style="
+                  text-align: center;
+              ">
+                    <div class="client-avatar"> <img alt="" src="images/team-10-70x70.jpg"> </div>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                      Ventage or dorent eu fugiat nulla pariatur . <br> Excepteur sint occaecat
+                      cupidatat non proident rum.</p>
+                    <div class="client-title"><strong>MICHAEL STROMBACH</strong></div>
+
+
+                  </div>
+                  <div class="item client-detail" style="
+                  text-align: center;  ">
+                    <div class="client-avatar"> <img alt="" src="images/team-9-70x70.jpg"> </div>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                      Ventage or dorent eu fugiat nulla pariatur . <br> Excepteur sint occaecat
+                      cupidatat non proident rum..</p>
+                    <div class="client-title"><strong>STROMBACH MICHAEL</strong></div>
+
+
+                  </div>
+                  <div class="item client-detail" style="
+                  text-align: center;
+              ">
+                    <div class="client-avatar"> <img alt="" src="images/team-10-70x70.jpg"> </div>
+
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                      Ventage or dorent eu fugiat nulla pariatur . <br> Excepteur sint occaecat
+                      cupidatat non proident rum.</p>
+                    <div class="client-title"><strong>MICHAEL STROMBACH</strong></div>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- =====  testimonial end ===== -->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

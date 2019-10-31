@@ -25,12 +25,15 @@ $less->compileFile('less/1290.less', 'css/1290.css');
     <title>1290</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />  
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link href="<?php echo $url_path ?>/css/1290.css" rel="stylesheet" type="text/css" />
- 	<link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <script src="/1290/js/jquery-2.1.4.min.js"></script>
+    <script src="/1290/js/bootstrap.min.js"></script>
 </head>
+
 <body>
- <?php include $dir_block.'/1290-content.php'; ?>
+    <?php include $dir_block.'/1290-content.php'; ?>
 </body>
+
 </html>

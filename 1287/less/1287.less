@@ -1,77 +1,118 @@
-.type-1287 {
-    font-family: sans-serif;
+.type-1287{  
     border: none;
     height: auto;
-    @color_icon: #cecece;
-    @color_bg: #000;   
-    @color_write: #fff;  
-    @color_green:#57bc54;
-    a{
-        text-decoration: none;
+    @color_base: rgb(113,181,228);
+    @color_icon: rgb(14,170,166); 
+    @color_title_base: rgb(97,97,97);
+    @color_border_bottom: rgb(244,244,244);
+    @font_size: 57px;
+    @color: #fff;
+    @color_xam: #aeaead;
+    /***************************** Header-Area **********************************/
+    h2{
+        font-weight: bold;
     }
-    
-    .type-3{
-        background-image: url(../images/nendt.jpg);
-        background-size: cover;
-        .line{
-            height:50px;
-            background: @color_green;
+    .right-column{
+        float: right;
+        width: 40%;
+    }
+    .right{
+        width: 50%;
+        height: auto;
+    }
+    .left-column{
+        padding: 80px;
+        float: left;
+        width: 60%;
+    }
+    .btn1 {
+        border: 1px solid #57bc54;
+        background: #57bc54;
+        color: #fff;
+        width: 25;
+        margin-left: 15px;
+    }
+    .btn2 {
+        border: 1px solid #cecece;
+        background: #cecece;
+        color: #fff;
+    }
+    .btn:hover {
+        background: #abf36c;
+    }
+	header {
+		height: 420px;
+
+		img {
+            width: 100%;
+            height: 420px;
+		}
+		.content-slide-show {
+			position: absolute;
+		    top: 10%;
+		    color: @color;
+
+		    .sub-title {
+		    	font-size: 32px;
+		    }
+		    .title {
+		    	font-size: @font_size;
+		    	margin-top: 10px;
+    			text-align: left!important;
+		    }
+		    .content {
+		    	width: 65%;
+			    text-align: left;
+			    margin-top: 15px;
+		    }
+		}
+		.swiper-pagination {
+			padding-top: 30px;
+    		padding-bottom: 20px;
+    		bottom: 0px!important;
+
+			.swiper-pagination-bullet {
+				height: 7px;
+			    width: 40px;
+			    background: transparent;
+			    border: 2px @color solid;
+			    border-radius: 3px;
+			}
+			.swiper-pagination-bullet-active {
+				background: @color!important;
+			}
+		}
+	}
+	@media(max-width: 1200px) {
+		.right {
+            width: 72%;
+            height: 342px;
         }
-        img{
-            width:50%;
-        }
-        h2{
-            padding-top:10%;            
-        }
-        p{
-            font: 700 16px/22px Raleway, sans-serif;
-        }
-        .btn1{
-            border: 1px solid @color_green;
-            background: @color_green;
-            color:@color_write;
-            width:25;
-            margin-left: 15px;
-        }
-        .btn2{
-            border: 1px solid #cecece;
-            background: #cecece;
-            color:@color_write;            
-        }
-        .btn:hover{
-            background: #abf36c;
+	}	
+    @media(max-width: 950px) and (min-width: 700px) {
+		.right {
+            width: 100%;
+            height: 342px;
         }
     }
-
-
-    /*-------REPONSIVE----------*/
-
-    @media (min-width: 768px){
-
-        .type-3{
-            h2{
-                font: 700 44px/24px Raleway, sans-serif;
-            }
+    @media(max-width: 700px) and (min-width: 600px) {
+		.right {
+            width: 100%;
+            height: 315px;
         }
-
-    }
-    @media (max-width: 767px){
-        .abc {text-align: center;}
-        .type-3{
-            h2{
-                font: 700 34px/24px Raleway, sans-serif;
-            }
+        .left-column{
+            padding: 50px 50px 60px;
         }
-    }
-    @media (max-width: 480px){
-
-        .type-3{
-            h2{
-                font: 700 24px/24px Raleway, sans-serif;
-            }
-            .btn2{
-                width:35%
-            }
+    }	
+    @media(max-width: 600px) and (min-width: 400px) {
+		.right {
+            width: 100%;
+            height: 300px;
         }
-    }
+        .left-column{
+            padding: 40px 30px 40px;
+        }
+	}	
+	/***************************** Menu-Area ************************************/
+
 }

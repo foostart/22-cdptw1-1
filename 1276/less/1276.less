@@ -1,80 +1,287 @@
 .type-1276 {
-    .partner {
-        float     : left;
-        margin-top: 30px;
-        overflow  : hidden;
-        ul {
-            list-style: outside none none;
-            margin    : 0;
-            padding   : 0;
-            position  : relative;
-        }
-        li {
-            display      : inline;
-            float        : left;
-            margin-bottom: 10px;
-            img {
-                width       : 100%;
-                padding     : 0 40px;
-                margin-right: 0 60px;
-            }
-        }
+  line-height: 24px;
+  color: #494b4c;
+  font-size: 14px;
+  font-family: 'Josefin+Sans', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+
+.img-responsive{
+  padding: 0 10px;
+}
+
+
+  .mb_30 {
+    margin-bottom: 30px;
+  }
+
+
+
+  .no-padding {
+    padding: 0;
+  }
+
+
+
+  .pt_60 {
+    padding-top: 60px;
+  }
+
+
+
+
+  #client .type-01 {
+    margin: 0 20px;
+  }
+
+  .client-title {
+    text-transform: uppercase;
+  }
+
+  .client-detail p {
+    color: #fff;
+    margin-right: 20px;
+  }
+
+  .client .type-01 h2 {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .client .fa.fa-quote-left {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #494b4c;
+  }
+
+  .client-avatar {
+
+    float: left;
+    height: 100px;
+    width: 100px;
+
+  }
+
+  .client-title,
+  .client-designation {
+    color: yellow;
+
+    margin-top: 5px;
+  }
+
+  .client-designation {
+    color: #e40001;
+  }
+
+
+
+  .owl-item .client-avatar>img {
+    border-radius: 50%;
+    width: auto !important;
+  }
+
+
+  .owl-nav .owl-next {
+    left: auto;
+    opacity: 1;
+    right: 0;
+  }
+
+  .client .owl-dots {
+    top: 95%;
+    right: 37%;
+    position: absolute;
+    text-align: center;
+    bottom: 15px;
+    display: inline-flex;
+  }
+
+  .client .owl-dot {
+    display: block;
+    line-height: 1;
+  }
+
+  .client .owl-dot>span {
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0 0;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    height: 14px;
+    margin: 4px;
+    width: 14px;
+  }
+
+  .client .owl-dot.active>span {
+    background: rgba(0, 0, 0, 0.0) none repeat scroll 0 0;
+    border: 2px solid #e40001;
+    border-radius: 50%;
+
+    height: 14px;
+    margin: 4px;
+    width: 14px;
+  }
+
+
+  .footer {
+    background: #fff;
+    padding: 20px;
+  }
+
+  @media (max-width:1199px) {
+    .four-col-work .grid-item {
+      width: 33.33%;
     }
-    .info-man {
-        margin-top: 50px;
-        background: #000;
-        .img-man {
-            padding-top  : 50px;
-            margin-bottom: 50px;
-            text-align   : center;
-        }
-        img {
-            border-radius: 50%;
-        }
+
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .about-title {
+      font-size: 40px;
+      line-height: 55px;
     }
-    .text-man {
-        color      : #fff;
-        padding-top: 50px;
+
+    .client .owl-dots {
+      right: 42%;
     }
-    .name {
-        color    : orange;
-        font-size: 14px;
+  }
+
+
+  @media (max-width:991px) {
+
+
+    .footer-logo,
+    .client-avatar {
+      float: none;
     }
-    @media (min-width: 992px) {
-        .container {
-            width: 1140px;
-        }
+
+    .footer-block ul {
+      display: none;
     }
-    @media (max-width:830px) {
-        .partner {
-            float     : none;
-            margin-top: 30px;
-            overflow  : hidden;
-            ul {
-                list-style: outside none none;
-                position      : relative;
-                display       : flex;
-                flex-direction: column;
-                .boxly {
-                    margin-bottom: 50px;
-                }
-                li {
-                    display   : inline;
-                    float     : none;
-                    width     : 60%;
-                    background: red;
-                    margin    : 0 auto;
-                    .boxim {
-                        width : 100%;
-                        margin: 0 auto;
-                        img {
-                            width  : 100%;
-                            padding: 0px;
-                            margin : 0 auto;
-                        }
-                    }
-                }
-            }
-        }
+
+    .footer .form-group>input {
+      float: left;
     }
+
+    .footer .form-group .btn {
+      float: left;
+      margin-left: 15px;
+      padding: 10px 20px;
+    }
+
+    .footer .form-group>input {
+      width: 280px;
+    }
+
+    .footer-title {
+      cursor: pointer;
+      position: relative;
+    }
+    .client .owl-dots {
+      right: 42%;
+    }
+  }
+
+
+
+  @media (max-width:650px) {}
+
+
+  @media (max-width:480px) {
+
+    .navbar-brand>img {
+      display: inline-block;
+    }
+
+
+    .bannertext>h2 {
+      font-size: 16px;
+    }
+
+    .bannertext>p {
+      font-size: 14px;
+      line-height: 1;
+    }
+
+
+  }
+
+  @media (max-width:360px) {
+
+    .header-top-left li,
+    .header-top-right li {
+      padding: 0 10px;
+    }
+
+    .nav>li>a {
+      padding: 6px;
+    }
+
+    .newsletters input {
+      width: 150px;
+    }
+  }
+
+
+  .owl-carousel {
+    display: none;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+
+    position: relative;
+    z-index: 0;
+  }
+
+
+  .owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+
+  .owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+
+  .owl-carousel .owl-nav.disabled,
+  .owl-carousel .owl-dots.disabled {
+    display: none;
+  }
+
+  .owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next,
+  .owl-carousel .owl-dot {
+    cursor: pointer;
+    cursor: hand;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  .owl-carousel.owl-loaded {
+    display: block;
+    padding: 20px;
+  }
+
+  .owl-carousel.owl-loading {
+    opacity: 0;
+    display: block;
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
 }
