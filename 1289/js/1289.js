@@ -21,7 +21,7 @@ function insertChat(who, text, time){
         time = 0;
     }
     var control = "";
-    var date = formatAMPM(new Date());
+    var date = formatAMPM(new Date()); 
     
     if (who == "me"){
         control = '<li style="width:100%">' +
@@ -72,12 +72,10 @@ $('body > div > div > div:nth-child(2) > span').click(function(){
 resetChat();
 
 //-- Print Messages
-insertChat("me", "Chào Hiếu Phan...", 0);  
-insertChat("you", "Hi, Đức Lê", 1500);
-insertChat("me", "Hôm nay chúng ta nói về gì nhĩ?", 3500);
-insertChat("you", "Sửa code chứ gì ??!!",7000);
-insertChat("me", "Sửa X ?!", 9500);
-insertChat("you", "LOL", 12000);
+insertChat("me", "Hello Tom...", 0);  
+insertChat("you", "Hi, Pablo", 3000);
+insertChat("me", "What would you like to talk about today?", 6000);
+
 
 
 //-- NOTE: No use time on insertChat.

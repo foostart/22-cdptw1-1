@@ -1,3 +1,8 @@
+.type-1289 .send {
+  position: absolute;
+  right: 18px;
+  top: 15%;
+}
 .type-1289 .mytext {
   border: 0;
   padding: 10px;
@@ -47,10 +52,6 @@
   padding: 5px;
   display: flex;
 }
-.type-1289 .msj-rta {
-  float: right;
-  background: whitesmoke;
-}
 .type-1289 .msj {
   float: left;
   background: white;
@@ -73,10 +74,6 @@
   font-size: 21px;
   border-radius: 50%;
 }
-.type-1289 body > div > div > div.msj-rta.macro {
-  margin: auto;
-  margin-left: 1%;
-}
 .type-1289 ul {
   width: 100%;
   list-style-type: none;
@@ -98,17 +95,6 @@
   border-style: solid;
   border-width: 0 13px 13px 0;
   border-color: transparent #ffffff transparent transparent;
-}
-.type-1289 .msj-rta:after {
-  width: 0;
-  height: 0;
-  content: "";
-  top: -5px;
-  left: 14px;
-  position: relative;
-  border-style: solid;
-  border-width: 13px 13px 0 0;
-  border-color: whitesmoke transparent transparent transparent;
 }
 .type-1289 input:focus {
   outline: none;
@@ -142,11 +128,6 @@
   }
   .type-1289 li {
     width: 70% !important;
-  }
-  .type-1289 li .msj-rta {
-    margin: 0 -120px;
-    margin-top: 5px;
-    margin-bottom: 5px;
   }
   .type-1289 .type-1289 .text-r {
     width: 100%;

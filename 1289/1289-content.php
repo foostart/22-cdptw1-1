@@ -8,20 +8,29 @@
       $url_path = str_replace('\\', '/', $url_path);
       ?>
       <div class="type-1289">
-        <div class="container">
-          <div class="row"> 
-            <div class="col-sm-3 col-sm-offset-4 frame">
-              <ul></ul>
-              <div>                                
-                  <div class="text text-r" style="background:whitesmoke !important">
-                    <input class="mytext" placeholder="Type a message"/>
-                  </div> 
-                <div style="padding:10px;">
-                  <span class="glyphicon glyphicon-share-alt"></span>
-                </div>                
+          <div class="container">
+              <div class="row">
+                  <div class="col-sm-3 col-sm-offset-4 frame">
+                      <ul>
+                      <li id="box-chat" style="display:none;position: relative;top: 58%;">
+                        <div class="msj macro">
+                        <div class="avatar"><img class="img-circle" style="width:100%;" src="./images/photo.jpg" /></div>
+                            <div class="text text-l">
+                            <p id="content"></p>
+                                <p><small>12:55</small></p>
+                            </div>
+                        </div>
+                    </li>
+                      </ul>
+                      <div>
+                          <div class="text text-r" style="background:whitesmoke !important">
+                              <form class="form-horizontal" id="form_input">
+                                  <input class="mytext" placeholder="Type a message" type="text" name="user">
+                                  <button class="send" type="submit">Gửi</button>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
               </div>
-            </div>       
           </div>
-        </div>
       </div>
-      
