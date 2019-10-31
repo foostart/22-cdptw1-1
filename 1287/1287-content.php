@@ -13,11 +13,11 @@
 
 <div class="type-1287">
     <header>
-        <div class="swiper-container">
+        <div class="swiper-container top-slide">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <a href="#">
-                        <img src="images/2.jpg" alt="" />
+                        <img src="images/3.jpg" alt="" />
                     </a>
                     <div class="content-slide-show">
                         <div class="column">
@@ -39,9 +39,8 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="swiper-slide">
-                    <a href="#">
+                <a href="#">
                         <img src="images/4.jpg" alt="" />
                     </a>
                     <div class="content-slide-show">
@@ -64,10 +63,9 @@
                         </div>
                     </div>
                 </div>
-
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
         </div>
-    </header>
+    </header><!-- End Header -->
 </div>

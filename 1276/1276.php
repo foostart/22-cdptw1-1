@@ -25,10 +25,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="<?php echo $url_path?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path?>/css/fontawesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path?>/css/1276.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" type="text/css" href="<?php echo $url_path?>/css/font-awesome.min.css" />
-        <link rel="stylesheet" type="text/css" href="<?php echo $url_path?>/css/bootstrap.css" />
         <script src="<?php echo $url_path?>/js/jQuery_v3.1.1.min.js"></script>
         <script src="<?php echo $url_path?>/js/owl.carousel.min.js"></script>
         <script src="<?php echo $url_path?>/js/bootstrap.min.js"></script>
