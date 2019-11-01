@@ -1,8 +1,8 @@
 var me = {};
-me.avatar = "https://lh6.googleusercontent.com/-lr2nyjhhjXw/AAAAAAAAAAI/AAAAAAAARmE/MdtfUmC0M4s/photo.jpg?sz=48";
+me.avatar = "./images/photo.jpg";
 
 var you = {};
-you.avatar = "https://a11.t26.net/taringa/avatares/9/1/2/F/7/8/Demon_King1/48x48_5C5.jpg";
+you.avatar = "./images/cat.jpg";
 
 function formatAMPM(date) {
     var hours = date.getHours();
@@ -73,8 +73,8 @@ resetChat();
 
 //-- Print Messages
 insertChat("me", "Hello Tom...", 0);  
-insertChat("you", "Hi, Pablo", 3000);
-insertChat("me", "What would you like to talk about today?", 6000);
+insertChat("you", "Hi, Pablo", 1500);
+insertChat("me", "What would you like to talk about today?", 3000);
 
 
 

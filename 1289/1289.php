@@ -41,32 +41,23 @@ $less->compileFile('less/1289.less', 'css/1289.css');
         //khai báo biến submit form lấy đối tượng nút submit
         var submit = $("button[type='submit']");
 
-        //khi nút submit được click
         submit.click(function() {
-            //khai báo các biến dữ liệu gửi lên server
-            var user = $("input[name='user']").val(); //lấy giá trị trong input user
-
-            //Kiểm tra xem trường đã được nhập hay chưa
+            var user = $("input[name='user']").val();
             if (user == '') {
-                alert('Vui lòng nhập Tên người dùng');
+                alert('Vui lòng nhập !!!');
                 return false;
             }
-
-            //Lấy toàn bộ dữ liệu trong Form
             var datas = $('form#form_input').serialize();
-
-            //Sử dụng phương thức Ajax.
             $.ajax({
-                type: "POST", //Sử dụng kiểu gửi dữ liệu POST
-                url: "./1289-data.php", //gửi dữ liệu sang trang data.php
-                data: datas, //dữ liệu sẽ được gửi
-                success: function(data) // Hàm thực thi khi nhận dữ liệu được từ server
+                type: "POST",
+                url: "./1289-data.php",
+                data: datas,
+                success: function(data)
                 {
                     if (data == 'false') {
-                        alert('Không có người dùng');
+                        alert('Vui lòng nhập!!');
                     } else {
                         $('#content').html(data);
-                        //dữ liệu HTML trả về sẽ được chèn vào trong thẻ có id content
                     }
                 }
             });

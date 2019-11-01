@@ -17,7 +17,7 @@
                         <div class="avatar"><img class="img-circle" style="width:100%;" src="./images/photo.jpg" /></div>
                             <div class="text text-l">
                             <p id="content"></p>
-                                <p><small>12:55</small></p>
+                                <p><small>20:55 PM</small></p>
                             </div>
                         </div>
                     </li>

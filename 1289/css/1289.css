@@ -74,6 +74,21 @@
   font-size: 21px;
   border-radius: 50%;
 }
+.type-1289 .msj-rta {
+  float: right;
+  background: whitesmoke;
+}
+.type-1289 .msj-rta:after {
+  width: 0;
+  height: 0;
+  content: "";
+  top: -5px;
+  left: 14px;
+  position: relative;
+  border-style: solid;
+  border-width: 13px 13px 0 0;
+  border-color: whitesmoke transparent transparent transparent;
+}
 .type-1289 ul {
   width: 100%;
   list-style-type: none;
